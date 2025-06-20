@@ -63,13 +63,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W      &kp E           &kp R      &kp T                                                                            &kp Y                      &kp U  &lt 5 I   &kp O     &kp P
-&kp A             &kp S      &kp D           &kp F      &kp G        &msc SCRL_UP                       &kp MINUS                        &kp H                      &kp J  &kp K     &kp L     &kp ENTER
-&mt LEFT_SHIFT Z  &kp X      &kp C           &kp V      &kp B        &kp COLON                          &kp SEMICOLON                    &kp N                      &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp LEFT_WIN      &kp LCTRL  &kp LEFT_SHIFT  &lt 1 TAB  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &mt RIGHT_SHIFT INTERNATIONAL_4  &mt RIGHT_SHIFT BACKSPACE                             &kp ESC
+&kp Q             &kp W      &kp E           &kp R      &kp T                                                                            &kp Y                &kp U  &lt 5 I   &kp O     &kp P
+&kp A             &kp S      &kp D           &kp F      &kp G        &kp CLCK                           &kp MINUS                        &kp H                &kp J  &kp K     &kp L     &kp ENTER
+&mt LEFT_SHIFT Z  &kp X      &kp C           &kp V      &kp B        &kp COLON                          &kp SEMICOLON                    &kp N                &kp M  &mkp MB1  &mkp MB2  &kp SLASH
+&kp LEFT_WIN      &kp LCTRL  &kp LEFT_SHIFT  &lt 1 TAB  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &mt RIGHT_SHIFT INTERNATIONAL_4  &mt RCTRL BACKSPACE                             &kp ESC
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         FUNCTION {
@@ -138,18 +138,24 @@
         };
     };
 };
+
 // #includeのあとのあたりにスクロール量を変更
+
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 //  behaviors に追加
 // 新しいスクロール動作の追加
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            // 追加: スクロールのタップ時間を設定 (20ms)
-            tap-ms = <20>;
-        };
+
+scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+    compatible = "zmk,behavior-sensor-rotate";
+    #sensor-binding-cells = <0>;
+    bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
+    // 追加: スクロールのタップ時間を設定 (20ms)
+
+    tap-ms = <20>;
+};
 
 // 設定したいレイヤー
+
 sensor-bindings = <&scroll_up_down>;
