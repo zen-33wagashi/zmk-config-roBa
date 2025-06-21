@@ -105,10 +105,10 @@
 
         NUM {
             bindings = <
-&bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                      &trans            &kp HOME           &kp UP_ARROW    &kp END          &kp RIGHT_ALT
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans            &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB1        &mkp MB2         &mkp MB3
-&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                                &kp RIGHT_WIN
+&bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                      &trans              &kp HOME        &kp UP_ARROW    &kp END          &kp RIGHT_ALT
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &kp PAGE_UP         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &kp RA(LEFT_ARROW)  &kp RA(RIGHT)   &mkp MB1        &mkp MB2         &mkp MB3
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                               &kp RIGHT_WIN
             >;
         };
 
