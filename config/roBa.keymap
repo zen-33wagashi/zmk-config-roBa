@@ -98,7 +98,7 @@
             bindings = <
 &kp PERCENT           &kp DOLLAR        &kp LS(NUMBER_6)      &kp EQUAL          &kp SLASH                                      &kp NON_US_BACKSLASH  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
 &kp LEFT_BRACKET      &kp HASH          &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)  &kp LS(MINUS)  &trans         &trans           &kp MINUS             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
-&kp LS(LEFT_BRACKET)  &kp LS(EQUAL)     &kp INT1              &kp EXCLAMATION    &kp QUESTION   &trans         &trans           &kp PIPE              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &kp C_VOLUME_UP
+&kp LS(LEFT_BRACKET)  &kp LS(EQUAL)     &kp INTERNATIONAL_1   &kp EXCLAMATION    &kp QUESTION   &trans         &trans           &kp PIPE              &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &kp C_VOLUME_UP
 &trans                &kp LS(NUMBER_2)  &kp LS(N7)            &trans             &kp TAB        &kp SPACE      &kp RIGHT_SHIFT  &mt RCTRL DEL                                                                     &kp C_VOLUME_DOWN
             >;
         };
