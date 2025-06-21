@@ -105,10 +105,10 @@
 
         NUM {
             bindings = <
-&bt BT_SEL 4                &bt BT_SEL 3     &bt BT_SEL 2     &bt BT_SEL 1     &bt BT_SEL 0                                       &trans            &kp HOME           &kp UP_ARROW    &kp END          &kp RIGHT_ALT
-&kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &trans            &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB1        &mkp MB2         &mkp MB3
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans  &trans                                                                &kp RIGHT_WIN
+&bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0                      &trans            &kp HOME           &kp UP_ARROW    &kp END          &kp RIGHT_ALT
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans            &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &mkp MB1        &mkp MB2         &mkp MB3
+&trans        &trans        &trans        &trans        &trans        &trans      &trans  &trans                                                                &kp RIGHT_WIN
             >;
         };
 
