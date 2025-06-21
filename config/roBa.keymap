@@ -96,10 +96,10 @@
 
         FUNCTION {
             bindings = <
-&kp PERCENT           &kp DOLLAR     &kp LS(NUMBER_6)      &kp EQUAL          &kp SLASH                                       &kp NON_US_BACKSLASH  &kp RIGHT_BRACKET  &kp RS(NON_US_HASH)  &kp LESS_THAN  &kp GREATER_THAN
-&kp LEFT_BRACKET      &kp HASH       &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)  &kp LS(MINUS)  &trans         &kp LS(NUMBER_2)  &kp MINUS             &kp LS(N8)         &kp LS(N9)           &kp SEMICOLON  &kp COLON
-&kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(BACKSLASH)     &kp EXCLAMATION    &kp QUESTION   &trans         &kp LS(N7)        &kp PIPE              &kp LEFT_BRACKET   &kp RIGHT_BRACKET    &trans         &kp C_VOLUME_UP
-&trans                &trans         &trans                &trans             &kp TAB        &kp SPACE      &kp RIGHT_SHIFT   &mt RCTRL DEL                                                                &kp C_VOLUME_DOWN
+&kp PERCENT           &kp DOLLAR     &kp LS(NUMBER_6)      &kp EQUAL          &kp SLASH                                       &kp INTERNATIONAL_1  &kp RS(LBRC)      &kp RS(RBRC)       &kp LESS_THAN  &kp GREATER_THAN
+&kp LEFT_BRACKET      &kp HASH       &kp LS(SINGLE_QUOTE)  &kp LS(SEMICOLON)  &kp LS(MINUS)  &trans         &kp LS(NUMBER_2)  &kp MINUS            &kp LS(N8)        &kp LS(N9)         &kp SEMICOLON  &kp COLON
+&kp LS(LEFT_BRACKET)  &kp LS(EQUAL)  &kp LS(BACKSLASH)     &kp EXCLAMATION    &kp QUESTION   &trans         &kp LS(N7)        &kp PIPE             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans         &kp C_VOLUME_UP
+&trans                &trans         &trans                &trans             &kp TAB        &kp SPACE      &kp RIGHT_SHIFT   &mt RCTRL DEL                                                            &kp C_VOLUME_DOWN
             >;
         };
 
