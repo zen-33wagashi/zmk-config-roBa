@@ -57,7 +57,6 @@
         };
   };
 
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -69,8 +68,7 @@
 &kp LEFT_WIN      &kp LCTRL  &kp LEFT_SHIFT  &lt 1 TAB  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &mt RIGHT_SHIFT INTERNATIONAL_4  &mt RCTRL BACKSPACE                             &kp ESC
             >;
 
-sensor-bindings = <&encoder_msc_down_up>;
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
