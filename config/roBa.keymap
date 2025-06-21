@@ -64,6 +64,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -86,15 +87,15 @@
             >;
 
             sensor-bindings = <&scroll_up_down>;
-sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
             bindings = <
-&kp PERCENT  &kp DOLLAR         &kp AMPERSAND   &kp CARET        &kp SLASH                          &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp AT_SIGN  &kp HASH           &kp ASTERISK    &kp PLUS         &kp EQUAL     &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp GRAVE    &kp TILDE          &kp UNDERSCORE  &kp EXCLAMATION  &kp QUESTION  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans       &kp DOUBLE_QUOTES  &kp SQT         &trans           &trans        &trans      &trans   &trans                          &kp F12
+&kp PERCENT  &kp DOLLAR         &kp AMPERSAND   &kp CARET        &kp SLASH                             &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp AT_SIGN  &kp HASH           &kp ASTERISK    &kp PLUS         &kp EQUAL     &trans         &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp GRAVE    &kp TILDE          &kp UNDERSCORE  &kp EXCLAMATION  &kp QUESTION  &trans         &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans       &kp DOUBLE_QUOTES  &kp SQT         &trans           &kp TAB       &kp SPACE      &trans   &trans                          &kp F12
             >;
         };
 
