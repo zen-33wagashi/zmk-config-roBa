@@ -97,7 +97,7 @@
         FUNCTION {
             bindings = <
 &kp PERCENT  &kp DOLLAR  &kp AMPERSAND  &kp CARET        &kp SLASH                                     &kp BACKSLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN
-&kp AT       &kp HASH    &kp ASTRK      &kp PLUS         &kp EQUAL     &trans         &kp RC(MINUS)    &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
+&kp AT       &kp HASH    &kp ASTRK      &kp PLUS         &kp EQUAL     &trans         &kp MINUS        &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COLON
 &kp MINUS    &kp TILDE   &kp UNDER      &kp EXCLAMATION  &kp QUESTION  &trans         &none            &kp SINGLE_QUOTE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE       &kp C_VOLUME_UP
 &trans       &kp COMMA   &kp DOT        &trans           &kp TAB       &kp SPACE      &kp RIGHT_SHIFT  &mt RCTRL DEL                                                                  &kp C_VOLUME_DOWN
             >;
